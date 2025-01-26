@@ -1,0 +1,9 @@
+package anonymous:greeting@0.0.1;
+
+interface say {
+    hello: func() -> string;
+}
+
+world greeting {
+    export say;
+}

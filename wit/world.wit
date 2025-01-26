@@ -1,0 +1,5 @@
+package anonymous:app@0.0.1;
+
+world app {
+    import anonymous:greeting/say@0.0.1;
+}
