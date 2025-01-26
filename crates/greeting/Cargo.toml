@@ -1,0 +1,12 @@
+[package]
+name = "greeting"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wit-bindgen = "0.38.0"
+wit-bindgen-rt = { version = "0.38.0", features = ["bitflags"] }
+
